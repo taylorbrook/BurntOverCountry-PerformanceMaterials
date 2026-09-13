@@ -6035,7 +6035,7 @@
                     "presentation": 1,
                     "presentation_rect": [ 900.0, 345.0, 143.0, 42.0 ],
                     "style": "chiba",
-                    "text": "init",
+                    "text": "off",
                     "textjustification": 1
                 }
             },
@@ -8531,7 +8531,7 @@
                     "patching_rect": [ 190.0, 862.0, 50.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 398.0, 501.0, 78.26086699962616, 22.0 ],
-                    "text": "0."
+                    "text": "0.2"
                 }
             },
             {
@@ -8544,7 +8544,7 @@
                     "patching_rect": [ 147.0, 1083.0, 50.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 399.99998688697815, 586.0, 77.50001311302185, 22.0 ],
-                    "text": "0."
+                    "text": "0.2"
                 }
             },
             {
@@ -21564,15 +21564,9 @@
                                             "lines": [
                                                 {
                                                     "patchline": {
-                                                        "source": [ "obj-1", 0 ],
-                                                        "destination": [ "obj-4", 0 ]
-                                                    }
-                                                },
-                                                {
-                                                    "patchline": {
-                                                        "source": [ "obj-2", 0 ],
-                                                        "destination": [ "obj-4", 1 ],
-                                                        "midpoints": [ 139.5, 12.0, 202.0, 12.0, 202.0, 50.0, 250.0, 50.0 ]
+                                                        "source": [ "obj-4", 0 ],
+                                                        "destination": [ "obj-5", 0 ],
+                                                        "midpoints": [ 59.5, 300.0, 59.5, 300.0 ]
                                                     }
                                                 },
                                                 {
@@ -21584,9 +21578,15 @@
                                                 },
                                                 {
                                                     "patchline": {
-                                                        "source": [ "obj-4", 0 ],
-                                                        "destination": [ "obj-5", 0 ],
-                                                        "midpoints": [ 59.5, 300.0, 59.5, 300.0 ]
+                                                        "source": [ "obj-2", 0 ],
+                                                        "destination": [ "obj-4", 1 ],
+                                                        "midpoints": [ 139.5, 12.0, 202.0, 12.0, 202.0, 50.0, 250.0, 50.0 ]
+                                                    }
+                                                },
+                                                {
+                                                    "patchline": {
+                                                        "source": [ "obj-1", 0 ],
+                                                        "destination": [ "obj-4", 0 ]
                                                     }
                                                 }
                                             ],
@@ -21602,7 +21602,7 @@
                                     "outlettype": [ "multichannelsignal" ],
                                     "patching_rect": [ 1200.0, 275.0, 121.0, 22.0 ],
                                     "text": "mc.gen~",
-                                    "wrapper_uniquekey": "u495001179"
+                                    "wrapper_uniquekey": "u099001148"
                                 }
                             },
                             {
